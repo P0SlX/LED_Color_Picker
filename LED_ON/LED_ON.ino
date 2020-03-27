@@ -9,23 +9,6 @@ void setup() {
 
   pixels.begin();
   pixels.setBrightness(60);
-  for(int i=0; i<NUMPIXELS; i++) {
-      pixels.setPixelColor(i, pixels.Color(0, 0, 255));
-      pixels.show();
-      delay(50);
-  }
-   for(int i=0; i<NUMPIXELS; i++) {
-      pixels.setPixelColor(i, pixels.Color(255, 255, 255));
-      pixels.show();
-      delay(50);
-  }
-   for(int i=0; i<NUMPIXELS; i++) {
-      pixels.setPixelColor(i, pixels.Color(255, 0, 0));
-      pixels.show();
-      delay(50);
-  }
-  delay(200);
-  pixels.clear();
   pixels.show();
 }
 
